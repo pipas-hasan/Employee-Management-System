@@ -1,3 +1,4 @@
+import Login from "./components/Auth/Login"
 
 
 function App() {
@@ -5,7 +6,8 @@ function App() {
 
   return (
     <div>
-      <h1>Employee Management System</h1>
+      <h1 className="text-3xl">Employee Management System</h1>
+      <Login />
     </div>
   )
 }
